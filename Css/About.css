@@ -1,0 +1,54 @@
+.Custom-Container {
+    max-width: 100%;
+}
+
+.Content-Container{
+    color: ghostwhite;
+    height: 70%;
+}
+
+.About-Img{
+    border: none;
+    max-width: 50%;
+    background-color: transparent;
+}
+
+.About-Caption{
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+@media  (max-width: 940px){
+    .About-Img{
+        max-width: 40%;
+        max-height: 40%;
+    }
+
+    .About-Caption{
+        font-size: 1em;
+    }
+}
+
+@media  (max-width: 768px){
+    .Custom-Container{
+        padding: 0px !important;
+        max-width: 100%;
+    }
+
+    .Content-Container{
+        padding: 1.22rem !important;
+    }
+
+    .Responsive-About{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-Img{
+        max-width: 100%;
+    }
+
+    .About-Caption{
+        font-size: 1rem;
+    }
+}
